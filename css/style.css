@@ -245,7 +245,7 @@ button {
 
 .read_more {
     font-size: 17px;
-    background: #323757;
+    background: rgb(51, 170, 250);
     max-width: 162px;
     width: 100%;
     transition: ease-in all 0.5s;
@@ -257,7 +257,7 @@ button {
 }
 
 .read_more:hover {
-    background: #e8576f;
+    background: #f11b1b;
     color: #fff;
 }
 
@@ -314,7 +314,7 @@ button {
 }
 
 .top_header {
-    border-top: #323757 solid 15px;
+    border-top: rgb(51, 170, 250) solid 15px;
     background: #fefefd;
     display: flex;
     align-items: center;
@@ -354,7 +354,7 @@ ul.top_infomation li:last-child {
 ul.top_infomation li i {
     margin-right: 5px;
     background: #ebebeb;
-    color: #e8576f;
+    color: #f11b1b;
     width: 45px;
     height: 45px;
     text-align: center;
@@ -366,7 +366,7 @@ ul.top_infomation li a {
 }
 
 ul.top_infomation li a:hover {
-    color: #e8576f;
+    color: #f11b1b;
 }
 
 .select_main .read_more {
@@ -378,7 +378,7 @@ ul.top_infomation li a:hover {
 }
 
 .header_midil {
-    background: #323757;
+    background: rgb(51, 170, 250);
     width: 100%;
     height: 73px;
     padding: 24px 0px;
@@ -407,14 +407,14 @@ ul.top_infomation li a:hover {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-    color: #e8576f;
+    color: #f11b1b;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-    color: #e8576f;
+    color: #f11b1b;
 }
 
 ul.email {
@@ -501,7 +501,7 @@ ul.email li a i {
     box-shadow: 0 0 65px rgba(30, 30, 30, 0.24);
     z-index: 999;
     border-radius: 50px;
-    border: #323757 solid 2px;
+    border: rgb(51, 170, 250) solid 2px;
 }
 
 #banner1 .carousel-control-prev {
@@ -516,8 +516,8 @@ ul.email li a i {
 #banner1 .carousel-control-next:hover,
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-prev:hover {
-    color: #e8576f;
-    border: #e8576f solid 2px;
+    color: #f11b1b;
+    border: #f11b1b solid 2px;
 }
 
 
@@ -527,7 +527,7 @@ ul.email li a i {
 /** wedo section **/
 
 .wedo {
-    background: #323757;
+    background: rgb(51, 170, 250);
     padding-bottom: 90px;
 }
 
@@ -558,15 +558,15 @@ ul.email li a i {
     content: "";
     width: 57px;
     height: 40px;
-    background: #323757;
-    border: #e8576f solid 10px;
+    background: rgb(51, 170, 250);
+    border: #f11b1b solid 10px;
     right: -43px;
     top: 118px;
 }
 
 .web_box i {
-    background: #323757;
-    border: #e8576f solid 10px;
+    background: rgb(51, 170, 250);
+    border: #f11b1b solid 10px;
     border-radius: 50%;
     width: 280px;
     height: 280px;
@@ -600,7 +600,7 @@ ul.email li a i {
 
 .wedo .read_more:hover {
     color: #fff;
-    background: #e8576f;
+    background: #f11b1b;
 }
 
 
@@ -659,7 +659,7 @@ ul.email li a i {
 .work_img::after {
     position: absolute;
     content: "";
-    background: #e8576f;
+    background: #f11b1b;
     width: 130px;
     height: 15px;
     bottom: -10px;
@@ -690,7 +690,7 @@ ul.email li a i {
 /** schedule section **/
 
 .schedule {
-    background: #323757;
+    background: rgb(51, 170, 250);
     padding-top: 90px;
     padding-bottom: 90px;
 }
@@ -707,7 +707,7 @@ ul.email li a i {
     width: 100%;
     height: 75px;
     background: #fff;
-    color: #323757;
+    color: rgb(51, 170, 250);
     font-size: 17px;
     font-weight: normal;
     box-shadow: inherit;
@@ -719,7 +719,7 @@ ul.email li a i {
 .subsci_btn {
     font-size: 20px;
     transition: ease-in all 0.5s;
-    background-color: #e8576f;
+    background-color: #f11b1b;
     text-transform: uppercase;
     color: #fff;
     display: block;
@@ -734,12 +734,12 @@ ul.email li a i {
 
 .subsci_btn:hover {
     transition: ease-in all 0.5s;
-    color: #e8576f;
+    color: #f11b1b;
     background-color: #fff;
 }
 
 #colof *::placeholder {
-    color: #323757;
+    color: rgb(51, 170, 250);
     opacity: 1;
 }
 
@@ -852,7 +852,7 @@ ul.email li a i {
 }
 
 .our_fishs_box {
-    border: #e8576f solid 2px;
+    border: #f11b1b solid 2px;
     margin-bottom: 110px;
 }
 
@@ -878,7 +878,7 @@ ul.email li a i {
 
 .ser_img i img {
     border-radius: 50%;
-    border: #e8576f solid 3px;
+    border: #f11b1b solid 3px;
 }
 
 .owl-item.active.center .ser_img {
@@ -927,7 +927,7 @@ ul.email li a i {
 .main_form .send_btn {
     font-size: 20px;
     transition: ease-in all 0.5s;
-    background-color: #323757;
+    background-color: rgb(51, 170, 250);
     text-transform: uppercase;
     color: #fff;
     max-width: 306px;
@@ -940,7 +940,7 @@ ul.email li a i {
 }
 
 .main_form .send_btn:hover {
-    background-color: #e8576f;
+    background-color: #f11b1b;
     transition: ease-in all 0.5s;
     color: #fff;
 }
@@ -959,7 +959,7 @@ ul.email li a i {
 .footer {
     margin-top: 90px;
     padding-top: 90px;
-    background: #323757;
+    background: rgb(51, 170, 250);
     text-align: center;
 }
 
@@ -977,7 +977,7 @@ ul.email li a i {
     position: absolute;
     content: "";
     height: 45px;
-    border-left: 10px #e8576f solid;
+    border-left: 10px #f11b1b solid;
     top: -11px;
     left: -5px;
 }
@@ -996,7 +996,7 @@ ul.email li a i {
     content: "";
     width: 15px;
     height: 15px;
-    background: #e8576f;
+    background: #f11b1b;
     top: 5px;
     border-radius: 20px;
     left: -17px;
@@ -1019,7 +1019,7 @@ ul.social_icon li {
 
 ul.social_icon li a i {
     font-size: 17px;
-    color: #323757;
+    color: rgb(51, 170, 250);
     transition: ease-in all 0.5s;
     background: #fff;
     width: 30px;
@@ -1032,7 +1032,7 @@ ul.social_icon li a i {
 ul.social_icon li a i:hover {
     color: #fff;
     transition: ease-in all 0.5s;
-    background: #e8576f;
+    background: #f11b1b;
 }
 
 ul.menu_footer {
@@ -1049,7 +1049,7 @@ ul.menu_footer li a {
 }
 
 ul.menu_footer li a:hover {
-    color: #e8576f;
+    color: #f11b1b;
 }
 
 .copyright {
@@ -1059,7 +1059,7 @@ ul.menu_footer li a:hover {
 }
 
 .copyright p {
-    color: #323757;
+    color: rgb(51, 170, 250);
     font-size: 17px;
     line-height: 22px;
     text-align: center;
@@ -1069,11 +1069,11 @@ ul.menu_footer li a:hover {
 }
 
 .copyright a {
-    color: #323757;
+    color: rgb(51, 170, 250);
 }
 
 .copyright a:hover {
-    color: #e8576f;
+    color: #f11b1b;
 }
 
 
