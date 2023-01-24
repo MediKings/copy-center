@@ -590,6 +590,13 @@ ul.email li a i {
     line-height: 30px;
 }
 
+.wedo img {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .wedo .read_more {
     margin: 0 auto;
     display: block;
@@ -607,84 +614,23 @@ ul.email li a i {
 /** end wedo section **/
 
 
-/** work section **/
-
-.work {
-    background: #fff;
-    padding-top: 90px;
+/** silder section **/
+.imgs {
+    padding: 10px;
 }
 
-.margi_bottom30 {
-    margin-bottom: 80px;
+.imgs img {
+    padding: 10px;
+    height: 300px;
+    object-fit: cover;
+    transition: all 200ms;
 }
 
-.marg_left {
-    margin-left: -40px;
+.imgs img.slick-current {
+    transform: scale(1.5);
+    transition: all 200ms;
 }
-
-.marg_right {
-    margin-right: -40px;
-}
-
-.work_img {
-    margin-bottom: 30px;
-}
-
-.work_img figure {
-    margin: 0;
-}
-
-.work_img figure img {
-    z-index: 9999;
-    position: relative;
-    padding: 5px 0;
-}
-
-.work_img {
-    position: relative;
-}
-
-.work_img::before {
-    position: absolute;
-    content: "";
-    background: #ddd;
-    width: 89%;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    left: 30px;
-    right: 30px;
-}
-
-.work_img::after {
-    position: absolute;
-    content: "";
-    background: #f11b1b;
-    width: 130px;
-    height: 15px;
-    bottom: -10px;
-    left: 0px;
-    right: 0px;
-    margin: 0 auto;
-}
-
-.work_box {
-    margin-bottom: 30px;
-}
-
-.work_box h3 {
-    color: #333333;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: bold;
-}
-
-.work_box p {
-    padding: 20px 0 40px 0;
-}
-
-
-/** end work section **/
+/** end slider section **/
 
 
 /** schedule section **/
@@ -845,6 +791,12 @@ ul.email li a i {
 
 .customers .titlepage p {
     padding-top: 15px;
+}
+
+.customers-slide img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .ser_img figure {
@@ -1105,3 +1057,19 @@ ul.menu_footer li a:hover {
 .portfolio_img figure img {box-shadow: 0 0 10px rgba(50, 55, 87, 0.36)}
 .portfolio_page .footer {margin-top:60px;}
 /** end portfolio section **/
+
+@media all and (min-width: 576px) and (max-width: 993px) {
+
+    .imgs img.slick-current {
+        transform: scaleY(1.5);
+        transition: all 200ms;
+    }
+
+    .wedo img {
+        width: 300px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+}
